@@ -10,8 +10,8 @@ Este repositorio tiene la finalidad de evidenciar todos los conocimientos adquir
 ### Contenido explicativo
 + El modelo 3D se obtiene de: https://assetstore.unity.com/
 + _**Shader**_ es lo que da color y para crear este archivo es necesario tener una estructura de código con propiedades, un SubShader que contenga Tags, y afuera de este un CGPROGRAM y ENDCG, en los cuales dentro de ellos se realiza la declaración de variables, estructuras y operaciones para que los efectos deseados sean visibles. 
-   + Se utiliza la directiva #pragma Surface surf CustomLambert para indicar su sombreador de superficie. (CustomLambert es una macro).
-   + Se declara un Albedo: Color sin ninguna alteración, natural, que también sirve para cambiarle el color a la iluminación.
++ Se utiliza la directiva #pragma Surface surf CustomLambert para indicar su sombreador de superficie. (CustomLambert es una macro).
++ **Albedo:** Color sin ninguna alteración, natural.
 + _**Lambert Wrap**_ es el modelo de iluminación más básico y hace uso de un fall off.
    + **Falloff:** La caída de la sombra y en que magnitud va a ser.
 	Llega la luz se esparce hasta que se ve negro.
