@@ -36,12 +36,12 @@ El Normal Strength agrega una textura de normales y requiere de un Normal Textur
   + **Strength:** Es para ver la intensidad de la normal.
   + **texColor:** El color de la textura.
   + **normalColor:** El color de la normal.
-+ _** Rim Light **_ es para que se de un efecto de iluminación solamente en las orillas, contiene un RimColor con HDR para mejor definición y un RimPower. En el void surf de agrega el nVwd, para normalizar la dirección por donde se aprecia, el NdotV y el rim para controlar su saturación.
-  + _**RimColor:**_ El color de la iluminación de la orilla.
-  + _**RimPower:**_ La intensidad de la iluminación de la orilla.
-  + _**Normalize:**_ Aquí lo importante es la dirección y si lo pasa a 0 y 1.
-  + _**Saturate:**_ Devuelve el menor número entero no menor que un escalar o cada componente del vector.
-  + _**Emission:**_ Controla la cantidad de color que una superficie emite desde su material.
++ _**Rim Light**_ es para que se de un efecto de iluminación solamente en las orillas, contiene un RimColor con HDR para mejor definición y un RimPower. En el void surf de agrega el nVwd, para normalizar la dirección por donde se aprecia, el NdotV y el rim para controlar su saturación.
+  + **RimColor:** El color de la iluminación de la orilla.
+  + **RimPower:** La intensidad de la iluminación de la orilla.
+  + **Normalize:** Aquí lo importante es la dirección y si lo pasa a 0 y 1.
+  + **Saturate:** Devuelve el menor número entero no menor que un escalar o cada componente del vector.
+  + **Emission:** Controla la cantidad de color que una superficie emite desde su material.
 + _**Banded**_ es para que tenga una iluminación con estilo de anillos entre blanco hasta el negro, necesita de steps tipo rango para controlar la cantidad de veces que se apreciara en el modelo 3D. 
   + **lightBandsMultiplier:** Decide cuantas bandas va a haber.
   + **lightBandsAdditive:** Es con el que se le da color o con el que va a sumar más que nada la separación entre las líneas.
