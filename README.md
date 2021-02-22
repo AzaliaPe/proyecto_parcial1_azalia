@@ -32,7 +32,7 @@ Este repositorio tiene la finalidad de evidenciar todos los conocimientos adquir
   + **SpecularPower:** Que tan fuerte es el efecto del brillo.
   + **Pow:** Devuelve x a la y-ésima potencia de escalares y vectores.
 + _**Normal Map**_ es para agregar una textura, por lo que necesita un MainTex tipo 2D. 
-El Normal Strength agrega una textura de normales y requiere de un Normal Texture y un Normal Strength. En el void surf se pone el texColor, normalColor y la normal.
++ _**Normal Strength**_ agrega una textura de normales y requiere de un Normal Texture y un Normal Strength. En el void surf se pone el texColor, normalColor y la normal.
   + **Strength:** Es para ver la intensidad de la normal.
   + **texColor:** El color de la textura.
   + **normalColor:** El color de la normal.
