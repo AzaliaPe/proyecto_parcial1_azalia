@@ -30,7 +30,7 @@ Este repositorio tiene la finalidad de evidenciar todos los conocimientos adquir
   + **GlossSteps:** Lo que hace es agrandar los pasos que le toma al llegar al punto más amplio, también sirve para ahorrar memoria.
   + **SpecularColor:** Es para el color de la luz del brillo.
   + **SpecularPower:** Que tan fuerte es el efecto del brillo.
-  + **Pow** Devuelve x a la y-ésima potencia de escalares y vectores.
+  + **Pow:** Devuelve x a la y-ésima potencia de escalares y vectores.
 + _**Normal Map**_ es para agregar una textura, por lo que necesita un MainTex tipo 2D. 
 El Normal Strength agrega una textura de normales y requiere de un Normal Texture y un Normal Strength. En el void surf se pone el texColor, normalColor y la normal.
   + **Strength:** Es para ver la intensidad de la normal.
