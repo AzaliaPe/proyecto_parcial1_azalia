@@ -33,7 +33,7 @@ Este repositorio tiene la finalidad de evidenciar todos los conocimientos adquir
   + **Pow:** Devuelve x a la y-ésima potencia de escalares y vectores.
 + _**Normal Map**_ es para agregar una textura, por lo que necesita un MainTex tipo 2D. 
 + _**Normal Strength**_ agrega una textura de normales y requiere de un Normal Texture y un Normal Strength. En el void surf se pone el texColor, normalColor y la normal.
-  + **Strength:** Es para ver la intensidad de la normal.
+  + **Strength:** Es para aumentar la intensidad de como se ve la normal.
   + **texColor:** El color de la textura.
   + **normalColor:** El color de la normal.
 + _**Rim Light**_ es para que se de un efecto de iluminación solamente en las orillas, contiene un RimColor con HDR para mejor definición y un RimPower. En el void surf de agrega el nVwd, para normalizar la dirección por donde se aprecia, el NdotV y el rim para controlar su saturación.
